@@ -1,0 +1,20 @@
+User APIs
+
+---
+
+Login : http://localhost:5000/api/users/login
+params :{email,password}
+
+Registrations : http://localhost:5000/api/users
+params :{name, email, password }
+
+UpdateProfile : http://localhost:5000/api/users/profile
+params :{name, email, password} , JWT_token
+
+GetUserInfo : http://localhost:5000/api/users/userInfo
+JWT_token
+
+## Image Upload APIS
+
+userProfile : http://localhost:5000/api/imageUpload
+params : {image :file}
